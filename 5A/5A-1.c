@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
-{   //输入外部数据预备
+{   //输入外部数据预备量
     int n,i;
     printf("请输入一个整数：");
     scanf("%d",&n);
