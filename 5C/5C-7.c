@@ -8,12 +8,14 @@ int main()
     scanf("%d",&n);
     int k;
     int sum;
+    //累加计算每一种组合数
     for(k=1,sum=0;k<=n;k++)
     {
         sum+=cal(k,n);
     }
     printf("%d",sum);
 }
+//定义函数计算阶乘，double类型返回
 double fact(int n)
 {
     double sum=1;
@@ -24,6 +26,7 @@ double fact(int n)
     }
     return sum;
 }
+//计算组合数
 double cal(int k,int n)
 {
     double sum;

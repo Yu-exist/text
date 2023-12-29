@@ -4,6 +4,7 @@ double funcos(double e,double x);
 double s(double a,int i);
 double fact(int n);
 int t(int i);
+//主函数，输入精度和自变量，输出
 int main()
 {
     double e,x;
@@ -12,10 +13,12 @@ int main()
     printf("近似值为：%lf",funcos(e,x));
     return 0;
 }
+//负责计算每一个近似的和
 double funcos(double e,double x)
 {
     int i=0;
     double sum=0;
+    //计算达到精度前的值
     while((s(x,2*i)/fact(2*i))>=e)
     {
         sum+=(s(x,2*i)*t(2*i))/fact(2*i);
