@@ -1,8 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    char *a;
-    a="abcdef";
-    printf("%s",a);
+    int a;
+    a=3;
+    int b;
+    b=3;
+    printf("%d%d",a,b);
     return 0;
 }
