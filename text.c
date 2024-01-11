@@ -1,10 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int a;
-    a=3;
-    int b;
-    b=3;
-    printf("%d%d",a,b);
-    return 0;
+    char a[10];
+    scanf("%c",a);
+    printf("%s",a);
 }

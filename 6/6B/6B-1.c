@@ -33,6 +33,6 @@ int main()
     printf("字母个数为：%d\n",num1);
     printf("数字个数为：%d\n",num2);
     printf("其他字符个数为：%d",n);
-    return 0;
     fclose(p);
+    return 0;
 }

@@ -7,7 +7,7 @@ struct nom
 };
 int main()
 {
-    //录入数字
+    //输入数字
     struct nom a[3];
     printf("请输入两个数字实部：");
         scanf("%d %d",&a[0].real,&a[1].real);
